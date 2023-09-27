@@ -1,0 +1,39 @@
+[
+  {
+    "app_name": "tonkeeper",
+    "name": "Tonkeeper",
+    "image": "https://tonkeeper.com/assets/tonconnect-icon.png",
+    "tondns": "tonkeeper.ton",
+    "about_url": "https://tonkeeper.com",
+    "universal_url": "https://app.tonkeeper.com/ton-connect",
+    "bridge": [
+      {
+        "type": "sse",
+        "url": "https://bridge.tonapi.io/bridge"
+      },
+      {
+        "type": "js",
+        "key": "tonkeeper"
+      }
+    ],
+    "platforms": ["ios", "android", "chrome", "firefox"]
+  },
+  {
+    "app_name": "mytonwallet",
+    "name": "MyTonWallet",
+    "image": "https://mytonwallet.io/icon-256.png",
+    "about_url": "https://mytonwallet.io",
+    "universal_url": "https://connect.mytonwallet.org",
+    "bridge": [
+      {
+        "type": "js",
+        "key": "mytonwallet"
+      },
+      {
+        "type": "sse",
+        "url": "https://tonconnectbridge.mytonwallet.org/bridge/"
+      }
+    ],
+    "platforms": ["chrome", "windows", "macos", "linux"]
+  }
+]
