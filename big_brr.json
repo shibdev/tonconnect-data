@@ -1,0 +1,26 @@
+{
+  "buttons": [
+    {
+      "label": "TestButton",
+      "uri": "https://google.com"
+    }
+  ],
+  "lottie": "https://nft.fragment.com/gift/plushpepe-1081.lottie.json",
+  "attributes": [
+    {
+      "trait_type": "Model",
+      "value": "Hue Jester"
+    },
+    {
+      "trait_type": "Backdrop",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Symbol",
+      "value": "Totem Bear"
+    }
+  ],
+  "description": "An exclusive Plush Pepe with the appearance Hue Jester on a Black background with Totem Bear icons.",
+  "name": "Test.ton",
+  "image": "https://nft.fragment.com/gift/plushpepe-1081.webp"
+}
